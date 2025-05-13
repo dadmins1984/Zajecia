@@ -45,8 +45,7 @@ namespace obliczx
             Console.Clear();
             Console.WriteLine("wynik obliczania X dla działania ax + b = c");
             Console.WriteLine($"to {X}");
-            Thread.Sleep(5000);
-            Console.Clear();
+            Console.ReadKey(); 
         }
     }
 }
